@@ -16,10 +16,5 @@ int main(void)
 		printf("is positive\n");
 	
 	/*if else is zero*/
-	}else if(n == 0){
-		printf("its zero\n";
-	/* if nothing is true*/
-	}else {
-		printf("its negative\n"
-	}
+	}else if
 }
