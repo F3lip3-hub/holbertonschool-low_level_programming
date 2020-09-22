@@ -6,8 +6,12 @@
 /* betty style doc for function main goes there */
 int main(void) {
 	char H;
-	H=Holberton();
-	putchar(H);
+	
+
+	for(H = 'Holberton'; H == 'H';;) {
+		putchar(H);
+	}
+	
 	return 0;
  
 }
