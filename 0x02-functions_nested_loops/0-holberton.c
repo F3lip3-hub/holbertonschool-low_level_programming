@@ -1,16 +1,22 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-#include <header.h>
+#include "holberton.h"
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
 int main(void)
 {
-	char H;
-	H = getchar();
 
 	putchar(H);
-	return (0);
+	putchar(o);
+	putchar(l);
+	putchar(b);
+	putchar(e);
+	putchar(r);
+	putchar(t);
+	putchar(o);
+	putchar(n);
+	putchar(\n);
 }
 
