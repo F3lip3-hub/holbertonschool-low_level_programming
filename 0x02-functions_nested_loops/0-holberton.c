@@ -5,8 +5,10 @@
 
 /* betty style doc for function main goes there */
 int main(void) {
+	char H = 'Holberton';
+	
 
-	putchar("Holberton\n");
+	putchar("H\n");
 	return 0;
  
 }
