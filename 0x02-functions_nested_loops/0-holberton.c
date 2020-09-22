@@ -7,9 +7,10 @@
 /* betty style doc for function main goes there */
 int main(void)
 {
-	char = H;
-	H = 'Holberton';
-	putchar('H');
+	char H;
+	H = getchar();
+
+	putchar(H);
 	return (0);
 }
 
