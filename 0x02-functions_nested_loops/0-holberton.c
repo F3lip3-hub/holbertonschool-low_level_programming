@@ -4,8 +4,10 @@
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
-int main(void)
-{
-       printf("Holberton\n");
+int main(void) {
+
+	putchar("Holberton\n");
+	return 0;
+ 
 }
 
