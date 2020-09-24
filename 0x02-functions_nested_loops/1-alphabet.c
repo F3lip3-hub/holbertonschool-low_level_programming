@@ -1,12 +1,12 @@
 #include "holberton.h"
 
 /**
-* main - Print a lowercase Alphabet
+* print_alphabet - Lowercase Alphabet
 *
 *
-* Return: 0
+* Return: Void
 */
-int main(void)
+void print_alphabet(void)
 {
 	char L;
 
@@ -15,6 +15,5 @@ int main(void)
 		_putchar(L);
 	}
 	_putchar('\n');
-	return (0);
 }
 
