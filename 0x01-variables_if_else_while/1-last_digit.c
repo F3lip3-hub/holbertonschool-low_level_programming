@@ -1,24 +1,34 @@
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
+#include <stdio.h>
+/** 
+* Main - Will assign a random number 
+*
+*
+* Return: 0 
+*/
 int main(void)
 {
-	int n;
+	int n, ult;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	/* your code goes there */
+	/* Printing random number */
 	
-	if ((n % 10) > 5){
-		printf("Last digit of %d is %d and is greater than 5\n");
+	ult = n % 10;
+	
+	printf("Last digit of %d\n", n);
+	if (ult > 6)
+	{
+		printf("is %d and is greater than 5\n", ult);
 	}
-	if else (n == 0){
-		printf("Last digit of %d is %d and is less than 6\n";
-	}
-	if else (n < 0){
-                printf("Last digit of %d is %d and is 0\n";
-	}
+		else if (ult == 0)
+		{
+			printf("is %d and is 0\n", ult);
+		}
+		else if (ult < 6)
+		{
+                	printf("is %d and is less than 6 and not 0\n", ult);
+		}
 	return (0);
 }
