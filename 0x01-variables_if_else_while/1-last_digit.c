@@ -1,11 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/** 
-* Main - Will assign a random number 
+/**
+* main - Will assign a random number
 *
 *
-* Return: 0 
+* Return: 0
 */
 int main(void)
 {
@@ -14,9 +14,9 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* Printing random number */
-	
+
 	ult = n % 10;
-	
+
 	printf("Last digit of %d\n", n);
 	if (ult > 6)
 	{
@@ -28,7 +28,7 @@ int main(void)
 		}
 		else if (ult < 6)
 		{
-                	printf("is %d and is less than 6 and not 0\n", ult);
+			printf("is %d and is less than 6 and not 0\n", ult);
 		}
 	return (0);
 }
