@@ -1,2 +1,14 @@
+# Learning C programming
 
-First repo with first C language knowledge
+## C is fun
+>Almost all popular languages are built on top of the C Language
+
+
+## C compilation process
+>Preprocessor
+
+>Compiler
+
+>Assembly 
+
+>Linker 
