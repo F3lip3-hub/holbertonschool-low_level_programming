@@ -4,8 +4,9 @@
 /**
 * reset_to_98 - Change value with pointer
 *
+* @n: pointer updated
 *
-* Return: 'n' changes at the end
+* Return: n
 */
 
 void reset_to_98(int *n)
