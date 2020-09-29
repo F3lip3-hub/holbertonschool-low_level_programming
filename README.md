@@ -5,10 +5,10 @@
 
 
 ## C compilation process
->Preprocessor
+* Preprocessor
 
->Compiler
+* Compiler
 
->Assembly 
+* Assembly 
 
->Linker 
+* Linker 
