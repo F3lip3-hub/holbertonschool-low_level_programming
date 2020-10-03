@@ -1,17 +1,21 @@
 #include "holberton.h"
 
 /**
-* _puts - 
+* _puts - print a string
 *
 *
 *
 */
-void _puts(char *str);
+void _puts(char *str)
 {
-	
-	char *str;
+	int a;
 
-	str = "What is a string?\n";
-	_puts(str);	
-	return (0);
+	a = 0;
+
+	while (str[a] != '\0')
+	{
+		_putchar(str[a]);
+		a++;
+	}
+	_putchar('\n');
 }
