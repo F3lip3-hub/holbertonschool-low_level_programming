@@ -2,7 +2,7 @@
 
 /**
 * _isupper - Uppercase character
-*
+* @c: contains letters to be modified
 *
 * Return: If uppercase is true return 1 else 0
 */
