@@ -1,3 +1,0 @@
-# MORE DAMN POINTERS
-
-> :)
