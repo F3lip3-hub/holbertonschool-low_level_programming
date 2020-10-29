@@ -6,7 +6,11 @@
 */
 int print_last_digit(int l)
 {
-	int last = (l % 10);
+	l = l % 10;
 
-	return (last);
+	if (l < 0)
+	{
+		l = l * -1;
+	}
+	return (l);
 }
