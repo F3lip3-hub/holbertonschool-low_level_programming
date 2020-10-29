@@ -10,15 +10,20 @@ int sum_them_all(const unsigned int n, ...)
 {
 	int sum = 0;
 	unsigned int i = 0;
+	va_list lst;
 
-	va_list variadic_list;
+	if (n == 0)
+	{
+		return (0);
+	}
 
-	va_start(variadic_list, n);
+	va_start(lst, n);
 
 	for (; i < n; i++)
 	{
-	sum += va_arg(variadic_list, int);
+	sum += va_arg(lst, int);
 	}
 
+	va_end(lst);
 	return (sum);
 }
