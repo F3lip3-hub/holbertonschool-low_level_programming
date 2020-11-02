@@ -6,12 +6,13 @@
 * @argv: argument vector
 * Return: main program name
 */
-int main(int argc, char *argv)
+int main(int argc, char *argv[])
 {
+	int i;
 
-	for (g = 0; g < argc; argc++)
-	{
-		printf("%s\n", argv[g]);
-	}
+	for (i = 0; i < argc; i++)
+
+	printf("%s\n", argv[0]);
 	return (0);
+
 }
