@@ -2,7 +2,7 @@
 /**
  * list_len - prototype to count the list length
  * @h: parameter pointer
- * return: variable to count
+ * Return: length of list
  */
 size_t list_len(const list_t *h)
 {
