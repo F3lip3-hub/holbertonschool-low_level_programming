@@ -9,7 +9,10 @@ size_t list_len(const list_t *h)
 	int count;
 	const list_t *next_item;
 
+	count = 0;
+
 	next_item = h;
+
 	while (next_item != NULL)
 	{
 		count++;
